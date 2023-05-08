@@ -83,8 +83,6 @@
         @include lg {
             font-size: 40px;
         }
-
-
     }
 
     &::before {
@@ -98,6 +96,6 @@
     }
 
     &__video-bg {
-        z-index: 8;
+        z-index: 3;
     }
 }

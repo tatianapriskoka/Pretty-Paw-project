@@ -46,7 +46,7 @@
             background-position: center;
         }
 
-        &::after {
+        &:not(:last-child)::after {
             content: '';
             position: absolute;
             display: block;
