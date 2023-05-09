@@ -1,4 +1,5 @@
 .location {
+    position: relative;
 
     &__list {
         @include lg {
@@ -254,4 +255,6 @@
             display: none;
         }
     }
+
+    &__video-bg {}
 }

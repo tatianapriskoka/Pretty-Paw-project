@@ -5,6 +5,7 @@ import 'swiper/scss/pagination';
 
 import './index.scss';
 import { slidersInit } from './modules/slider';
+import { videoBackgroundInit } from './modules/videoBackground';
 
 //use modules
 
@@ -40,9 +41,5 @@ slidersInit('.career__slider', {
     }
 });
 
-const videeoBG = document.querySelector('.video-bg');
-videeoBG.innerHTML = `
-<source src = "video/video.webm" type= "video/webm"">
-<source src = "video/video.mp4" type= "video/mp4"">
-`;
+videoBackgroundInit();
 
