@@ -62,7 +62,7 @@
             border: 2px solid $back;
             border-radius: 80px;
 
-            &:active {
+            &_active {
                 color: inherit;
                 pointer-events: none;
                 background-color: $back;
