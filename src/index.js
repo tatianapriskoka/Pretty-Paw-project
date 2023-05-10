@@ -6,6 +6,7 @@ import 'swiper/scss/pagination';
 import './index.scss';
 import { slidersInit } from './modules/slider';
 import { videoBackgroundInit } from './modules/videoBackground';
+import { menuControl } from './modules/menuControl';
 
 //use modules
 
@@ -42,4 +43,5 @@ slidersInit('.career__slider', {
 });
 
 videoBackgroundInit();
+menuControl();
 
