@@ -7,8 +7,12 @@ import './index.scss';
 import { slidersInit } from './modules/slider';
 import { videoBackgroundInit } from './modules/videoBackground';
 import { menuControl } from './modules/menuControl';
+import { locationHover } from './modules/locationHover';
 
 //use modules
+videoBackgroundInit();
+menuControl();
+locationHover();
 
 slidersInit('.about__slider', {
     pagination: {
@@ -48,6 +52,5 @@ slidersInit('.career__slider', {
     }
 });
 
-videoBackgroundInit();
-menuControl();
+
 
