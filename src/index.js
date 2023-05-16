@@ -8,11 +8,13 @@ import { slidersInit } from './modules/slider';
 import { videoBackgroundInit } from './modules/videoBackground';
 import { menuControl } from './modules/menuControl';
 import { locationHover } from './modules/locationHover';
+import { initTopScrollButton } from './modules/topScrollButton';
 
 //use modules
 videoBackgroundInit();
 menuControl();
 locationHover();
+initTopScrollButton('arrow-top');
 
 slidersInit('.about__slider', {
     pagination: {
