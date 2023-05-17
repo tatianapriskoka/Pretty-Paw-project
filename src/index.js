@@ -14,7 +14,11 @@ import { initTopScrollButton } from './modules/topScrollButton';
 videoBackgroundInit();
 menuControl();
 locationHover();
-initTopScrollButton('arrow-top');
+initTopScrollButton('arrow-top', {
+    hover: false,
+}
+
+);
 
 slidersInit('.about__slider', {
     pagination: {
