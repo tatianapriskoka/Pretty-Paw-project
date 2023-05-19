@@ -11,6 +11,7 @@ import { videoBackgroundInit } from './modules/videoBackground';
 import { menuControl } from './modules/menuControl';
 import { locationHover } from './modules/locationHover';
 import { initTopScrollButton } from './modules/topScrollButton';
+import { pageControlInit } from './modules/pageControl';
 
 //use modules
 videoBackgroundInit();
@@ -19,14 +20,12 @@ locationHover();
 initTopScrollButton('arrow-top', {
     hover: false,
 }
-
 );
+pageControlInit();
 
 slidersInit('.about__slider', {
     pagination: {
         el: '.about__slider-pagination',
-        //bulletClass: 'about__bullet',
-        //bulletActiveClass: 'about__bullet_active',
     }
 });
 
