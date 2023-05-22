@@ -1,12 +1,7 @@
 const showSection = () => {
     const hash = window.location.hash.slice(1);
-
     const sections = document.querySelectorAll('.page');
-
     const links = document.querySelectorAll('.navigation__link, .page-nav__link');
-    console.log(links);
-
-
 
     sections.forEach(section => { section.id === hash ? section.style.display = 'block' : section.style.display = 'none' })
 
