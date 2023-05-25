@@ -2,7 +2,7 @@ import './index.html';
 import './page.html';
 import 'swiper/scss';
 import 'swiper/scss/pagination';
-import './/index.scss';
+import './index.scss';
 // new modules
 
 
