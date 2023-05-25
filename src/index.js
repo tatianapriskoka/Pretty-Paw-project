@@ -1,12 +1,11 @@
 import './index.html';
 import './page.html';
 import 'swiper/scss';
-import './index.scss';
 import 'swiper/scss/pagination';
-
+import './/index.scss';
 // new modules
 
-import './index.scss';
+
 import { slidersInit } from './modules/slider';
 import { videoBackgroundInit } from './modules/videoBackground';
 import { menuControl } from './modules/menuControl';
