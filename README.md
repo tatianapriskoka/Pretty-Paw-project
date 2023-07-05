@@ -1,4 +1,3 @@
-# Pretty Paw
 
 <p>Application for zoo garden Pretty Paw</p>
 <img width="700" alt="Снимок экрана" src="./src/img/zoo1.png">
@@ -13,3 +12,4 @@
 
 ## Result:
 https://prettypaw.vercel.app/
+
